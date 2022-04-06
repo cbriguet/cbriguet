@@ -2,7 +2,7 @@
 - 👀 I’m interested in Data Science and ML applied to cyber security
 - 🌱 I’m currently learning Graph Analytics
 - 💞️ I’m looking to collaborate on Security Startup
-- 📫 How to reach me @cbriguet
+- 📫 Reach me on twitter @cbriguet
 
 <!---
 cbriguet/cbriguet is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
