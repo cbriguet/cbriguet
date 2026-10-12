@@ -1,7 +1,8 @@
 # Christophe Briguet
 
 **Cyber security product leader.** I work on security products by day, and build small,
-sharp tools for the questions security teams keep answering in spreadsheets.
+sharp tools for the questions people keep answering in spreadsheets: how big a log
+deployment has to be, and lately, how a yoga class lands on its music.
 
 ---
 
@@ -29,6 +30,14 @@ Automated classification of log records using edit distance and TLSH fuzzy hashi
 Millions of lines collapse into the handful of patterns they really are, which is the
 step everything else in log analytics depends on. The profiler above does the same job
 in a browser, with Drain.
+
+### 〰️ [Arcbeat](https://arcbeat.yoga) — *music that's intentional, not just there*
+
+A planning tool for yoga teachers. Choose the pose you want the room to land and a track,
+see where the music breaks and where it comes back, and build the way up so the landing
+pose arrives exactly there, before anyone is on a mat. For Yoga Sculpt it maps a whole
+playlist: one line per song with when the beat comes in, where it breaks and the room to
+cue. [Open the demo](https://demo.arcbeat.yoga). In validation with teachers now.
 
 ---
 
