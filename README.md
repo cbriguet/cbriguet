@@ -7,19 +7,28 @@ sharp tools for the questions security teams keep answering in spreadsheets.
 
 ### 📏 [Logcaliper](https://logcaliper.app) — *size your log deployment before you buy it*
 
-Turn a list of log sources into events per second, daily volume, and the cluster you
-will actually need. Three calculators: unit conversion, a source inventory with
-retention, and a comparison that puts storage volumes in terms people can picture.
+Every SIEM quote turns on two numbers, bytes per event and events per second, and most
+of the time both are guessed. Logcaliper measures them, then sizes the deployment.
 
-Free, no sign-up, runs entirely in the browser. Built because every SIEM sizing
-conversation starts with the same guesswork, and the guess is usually wrong in the
-expensive direction.
+- **[The profiler](https://logcaliper.app/profiler/)** reads a sample of your own log in
+  the browser, with nothing uploaded: lines and bytes reconciled to the byte, the average
+  bytes per event, the message templates (a port of Drain, checked cluster by cluster
+  against Drain3), the events per second over the time the timestamps cover, and what a
+  year of it takes to keep. [Source](https://github.com/cbriguet/logcaliper.app/tree/main/profiler).
+- **[The iOS app](https://apps.apple.com/app/id381096276)**, free on iPhone and iPad since
+  2010, sizes a whole list of sources: storage at retention, compression, the cluster and
+  the number of data nodes. Cited in IBM's Think 2018 QRadar sizing session and on
+  Splunk's blog.
+- **[Measured event sizes](https://logcaliper.app/sources/)** for 39 products and typical
+  event rates for 16 source categories, a page each, and the whole table as a CSV under
+  CC BY.
 
 ### 🔬 [logstats](https://github.com/cbriguet/logstats) — *finding the shape of unstructured logs*
 
 Automated classification of log records using edit distance and TLSH fuzzy hashing.
-Millions of lines collapse into the handful of patterns they really are — which is
-the step everything else in log analytics depends on.
+Millions of lines collapse into the handful of patterns they really are, which is the
+step everything else in log analytics depends on. The profiler above does the same job
+in a browser, with Drain.
 
 ---
 
